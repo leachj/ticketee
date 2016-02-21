@@ -37,7 +37,7 @@ class ProjectsController < ApplicationController
       flash[:notice] = "Project has been updated"
       redirect_to @project
     else
-      flash.now[:notice] = "Project has not been updated"
+      flash.now[:alert] = "Project has not been updated"
       render "edit"
     end
       
