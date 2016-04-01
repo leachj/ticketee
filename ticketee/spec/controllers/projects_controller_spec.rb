@@ -11,4 +11,5 @@ RSpec.describe ProjectsController, type: :controller do
     expect(flash[:alert]).to eq message
   end
 
+
 end
